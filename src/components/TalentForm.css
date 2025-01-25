@@ -1,0 +1,119 @@
+    /* TalentForm.css */
+
+    /* Styling for the body and background */
+    body {
+        font-family: Arial, sans-serif;
+        background: url('../assets/arctic monkeys.jpeg') no-repeat center center fixed; /* Replace with your image path */
+        background-size: cover; /* Makes the image cover the entire viewport */
+        color: #fff; /* White text for readability */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full viewport height */
+        backdrop-filter: blur(5px); /* Adds a subtle blur for better readability */
+    }
+
+    /* Form container styles */
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Form card styles */
+    .form-card {
+        background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+        padding: 30px;
+        border-radius: 12px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+        width: 100%;
+        max-width: 400px; /* Card width for responsiveness */
+        text-align: center;
+    }
+
+    /* Title styles */
+    .form-card h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #fff; /* White text */
+    }
+
+    /* Subtitle styles */
+    .form-card p {
+        font-size: 14px;
+        margin-bottom: 20px;
+        color: #ccc; /* Slightly dimmed text */
+    }
+
+    /* Form field styles */
+    .form-field {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    /* Label styles */
+    .form-field label {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: #fff; /* White text for labels */
+    }
+
+    /* Input and select styles */
+    .form-field input,
+    .form-field select {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #333; /* Subtle gray border */
+        border-radius: 8px; /* Rounded corners */
+        background-color: #1e1e1e; /* Dark background */
+        color: #fff; /* White text */
+    }
+
+    /* Placeholder text styling */
+    .form-field input::placeholder {
+        color: #777; /* Dimmed gray for placeholder text */
+    }
+
+    /* Dropdown menu styling */
+    .form-field select {
+        appearance: none; /* Remove default styling */
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+    }
+
+    .form-field select option {
+        background-color: #1e1e1e; /* Matches input background */
+        color: #fff; /* White text */
+    }
+
+    /* Submit button styles */
+    .Submit-btn {
+        background-color: #fff; /* White button background */
+        color: #000; /* Black text */
+        padding: 10px 15px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px; /* Rounded corners */
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+    }
+
+    /* Hover state for submit button */
+    .Submit-btn:hover {
+        background-color: #ccc; /* Lighter gray for hover */
+        transform: translateY(-2px); /* Subtle elevation */
+    }
+
+    /* Active state for submit button */
+    .Submit-btn:active {
+        background-color: #aaa; /* Darker gray for active state */
+        transform: translateY(0); /* Reset elevation */
+    }
